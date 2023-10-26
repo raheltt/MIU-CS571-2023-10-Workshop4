@@ -5,7 +5,7 @@ import { View, Text } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
 const Stars = ({ rating }) => {
-  const stars = [...Array(rating)];
+  const stars = [...Array(5)];
 
   return (
 
